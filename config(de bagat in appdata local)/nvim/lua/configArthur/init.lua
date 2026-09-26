@@ -1,6 +1,8 @@
 require("configArthur.remap")
 
 
+vim.opt.clipboard = "unnamedplus" --fac ca toate copierile sa fie in acel buffer
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
